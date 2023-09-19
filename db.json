@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "password": "john" 
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "password": "jane"
+    }
+   
+  ],
+  "bmiHistory": [
+    {
+      "id": 1,
+      "userId": 1,
+      "date": "2023-09-01",
+      "bmi": 25.5
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "date": "2023-08-15",
+      "bmi": 22.1
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "date": "2023-07-30",
+      "bmi": 21.8
+    }
+   
+  ]
+}
