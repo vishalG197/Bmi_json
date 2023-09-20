@@ -34,5 +34,30 @@
       "bmi": 21.8
     }
    
+  ],
+  "items": [
+    { "id": 1, "name": "Item 1", "price": 10.0 },
+    { "id": 2, "name": "Item 2", "price": 15.0 },
+    { "id": 3, "name": "Item 3", "price": 20.0 }
+   
+  ],
+  "bills": [
+    {
+      "id": 1,
+      "date": "2023-09-25",
+      "items": [
+        { "itemId": 1, "quantity": 2 },
+        { "itemId": 2, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2023-09-24",
+      "items": [
+        { "itemId": 2, "quantity": 3 },
+        { "itemId": 3, "quantity": 2 }
+      ]
+    }
+    
   ]
 }
