@@ -1,0 +1,54 @@
+
+.user-profile-container {
+   max-width: 400px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 5px;
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+ }
+ 
+ h2 {
+   text-align: center;
+   margin-bottom: 20px;
+ }
+ 
+ .user-profile-form {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .form-group {
+   margin-bottom: 15px;
+ }
+ 
+ label {
+   font-weight: bold;
+ }
+ 
+ input[type="text"],
+ input[type="email"],
+ input[type="password"] {
+   padding: 10px;
+   width: 100%;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+   font-size: 16px;
+   outline: none;
+ }
+ 
+ .update-profile-button {
+   background-color: #f39c12;
+   color: #fff;
+   padding: 10px;
+   border: none;
+   border-radius: 3px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+ }
+ 
+ .update-profile-button:hover {
+   background-color: #e67e22; /* Change color on hover */
+ }
+ 
